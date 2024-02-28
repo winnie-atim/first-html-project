@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    nav {
+        grid-template-columns: repeat(3, 1fr); 
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+        text-align: center; 
+    }
+
+    nav a {
+        text-decoration: none;
+        color: #fff;
+        padding: 10px;
+        transition: color 0.3s ease-in-out;
+    }
+
+    nav a:hover {
+        color: skyblue;
+    }
+
+    body {
+        background-color: skyblue;
+    }
+
+    p {
+        margin: 20px;
+    }
+
+    .image-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+        transition: transform 0.5s ease-in-out;
+    }
+
+    img:hover {
+        transform: scale(1.1);
+    }
+
+    footer {
+        text-align: center;
+        background-color: black;
+        color: white;
+        padding: 2%;
+    }
+</style>
+<body>
+    <nav>
+        <a href="home.html">HOME</a>
+        <a href="About us.html">ABOUT US</a>
+        <a href="blog.html">BLOG</a>
+        <a href="form.html">CONTACT US</a>
+    </nav>
+    <p>
+        As for the cafe, we managed to achieve some set goals, for example, we have been getting feedback from our 
+        users where our services are appreciated for the smooth running where the network is always secured.
+        We also got the opportunity to recruit more supporting staff. 
+    </p>
+    <div class="image-grid">
+        <img src="ppl comp.jfif">
+        <img src="ppl comp.avif">
+        <img src="COMP IMG.png">
+    </div>
+    <br><br><br><br><br>
+    <footer>Atim all rights reserved</footer> 
+</body>
+</html>

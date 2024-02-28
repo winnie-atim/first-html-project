@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABOUT US</title>
+    <link rel="stylesheet" type="/css" href="about us.css">
+</head>
+<style>
+    nav {
+        grid-template-columns: repeat(3, 1fr); 
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+        text-align: center; 
+    }
+
+    nav a {
+        text-decoration: none;
+        color: #fff;
+        padding: 10px;
+    }  
+
+    body {
+        background-color: skyblue;
+    }
+
+    p {
+        margin: 20px;
+    }
+
+    .image-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    }
+
+    img:hover {
+        transform: scale(1.05);
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    }
+
+    footer {
+        text-align: center;
+        background-color: black;
+        color: white;
+        padding: 2%;
+    }
+</style>
+<body>
+    <nav>
+        <a href="home.html">HOME</a>
+        <a href="About us.html">ABOUT US</a>
+        <a href="blog.html">BLOG</a>
+        <a href="form.html">CONTACT US</a>
+    </nav>
+    <p>
+        As for the Source Garden Café, we started with a small project of adding users on our Wi-Fi as a small business
+        to accumulate capital to open up a big tech company. It was a bit challenging since the mass in the area were
+        computer illiterates. Currently, we are highly operating in the radio sector where the business is smoothly
+        running. Our mission is to be the role model in the technology sector in the whole of East Africa.
+        We provide good services basing on the feedback from the certified customers. 
+    </p>
+    <div class="image-grid">
+        <img src="COMP2.jpg" width="500" height="500" style="border-radius: 50%;">
+        <img src="COMP IMG.png" width="500" height="500" style="border-radius: 2%;">
+        <img src="COMP3.webp" width="300" height="200" style="border-radius: 50%;">
+       
+    </div>
+    <br><br><br><br><br>
+    <footer>Atim all rights reserved</footer>  
+</body>
+</html>
